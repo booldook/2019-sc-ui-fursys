@@ -1,5 +1,21 @@
+html, body {font-size: 14px;}
+
 .wraps {width: 100%; overflow-x: hidden;}
 .wrap {width: 1080px; margin: 0 auto;}
 
+/*
+.tops {margin-bottom: 20px;}
+.navis {margin-top: 12px;}
+.navis > li {margin: 0 12px;}
+.schs {margin-top: 15px;}
+*/
+.tops {display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 30px;}
+.navis {display: flex;}
+.navis > li {margin: 0 12px;}
+
+.bans {position: relative;}
 .ban > li {width: 100%; overflow-x: hidden;}
 .ban > li:not(:first-child) {position: absolute; top: 0;}
+.ban_btn {position: absolute; left: 50%; top: 60%; transform: translateX(-50%);}
+
+.quicks {position: fixed; right: 0; top: 50%;}
