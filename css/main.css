@@ -1,2 +1,5 @@
-.wraps {width: 100%;}
+.wraps {width: 100%; overflow-x: hidden;}
 .wrap {width: 1080px; margin: 0 auto;}
+
+.ban > li {width: 100%; overflow-x: hidden;}
+.ban > li:not(:first-child) {position: absolute; top: 0;}

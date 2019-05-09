@@ -20,6 +20,7 @@ button {border: none;}
 .fr {float: right;}
 .abs {position: absolute;}
 .rel {position: relative;}
+.crel {position: relative; left: 50%; transform: translateX(-50%);}
 .fix {position: fixed;}
 .tc {text-align: center;}
 .tl {text-align: left;}
