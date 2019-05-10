@@ -16,8 +16,8 @@ html, body {font-size: 14px;}
 .navi_sub > div:first-child {padding-left: 30px;}
 .navi_sub > div:first-child > img {transform: translateY(1px);}
 .navi_sub > div:last-child {border: 1px solid #ccc; padding: 1rem; background-color: #fff; display: flex; width: 100%;}
-.navi_sub_ul {min-width: 130px; border-top: 2px solid #666; padding-top: 0.5rem; flex: 1 0; margin: 0.5rem;}
-.navi_sub_tit {padding-bottom: 3rem;}
+.navi_sub_ul {min-width: 140px; border-top: 2px solid #666; padding-top: 0.5rem; flex: 1 0; margin: 0.5rem;}
+.navi_sub_tit {padding-bottom: 2rem;}
 .navi_sub_cont {padding-bottom: 0.5rem;}
 .navi_sub_cont > div {margin: 0.5rem 0;}
 .navi_sub_cont > div:hover {background-color: pink; color: red; font-weight: bold; cursor: pointer;}

@@ -25,7 +25,39 @@ $.ajax({
 			html += '<img src="../img/bl_top.png" class="fl">';
 			html += '</div>';
 			html += '<div>';
-
+			for(var j in res.navs[i].datas) {
+				html += '<ul class="navi_sub_ul">';
+				if(res.navs[i].datas[j].mtit == "")	{
+					html += '<li class="navi_sub_cont navi_udot">';
+				}
+				else {
+					html += '<li class="navi_sub_tit navi_udot">';
+					if(res.navs[i].datas[j].mtit.target == "_blank") {
+						html += '<a href="'+res.navs[i].datas[j].mtit.link+'" target="_blank">';
+					}
+					else {
+						html += '<a href="'+res.navs[i].datas[j].mtit.link+'">';
+					}
+					html += res.navs[i].datas[j].mtit.title;
+					html += '</a>';
+					html += '</li>';
+					html += '<li class="navi_sub_cont">';
+				}
+				for(var k in res.navs[i].datas[j].stit) {
+					html += '<div>';
+					if(res.navs[i].datas[j].stit[k].target == "_blank") {
+						html += '<a href="'+res.navs[i].datas[j].stit[k].link+'" target="_blank">- ';
+					}
+					else {
+						html += '<a href="'+res.navs[i].datas[j].stit[k].link+'">- ';
+					}
+					html += res.navs[i].datas[j].stit[k].title;
+					html += '</a>';
+					html += '</div>';
+				}
+				html += '</li>';
+				html += '</ul>';
+			}
 			html += '</div>';
 			$(".navis > li").eq(i).append(html);
 		}
@@ -36,6 +68,9 @@ $.ajax({
 });
 
 /*
+res.navs[0].datas[0].mtit.title
+res.navs[0].datas[0].stit[2].title
+
 <div class="navi_sub">
 	<div class="clear">
 		<img src="../img/bl_top.png" class="fl">
@@ -69,6 +104,4 @@ $.ajax({
 		}
 	]
 }
-res.navs[0].datas[0].mtit.title
-res.navs[0].datas[0].stit[2].title
 */
