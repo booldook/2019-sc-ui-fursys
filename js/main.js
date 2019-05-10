@@ -81,10 +81,12 @@ function banAni() {
 }
 */
 
-var now = 0;
+var now = -1;
 var ed = 4;
 var depth = 10;
-var interval = setInterval(banAni, 2000);
+var timer = 5000;
+var interval = setInterval(banAni, timer);
+banAni();
 function banAni() {
 	if(now == ed) now = 0;
 	else now++;
@@ -92,22 +94,29 @@ function banAni() {
 }
 $("#bt_lt").click(function(){
 	clearInterval(interval);
-	interval = setInterval(banAni, 2000);
+	interval = setInterval(banAni, timer);
 	if(now == 0) now = ed;
 	else now--;
 	banFade();
 });
 $("#bt_rt").click(function(){
 	clearInterval(interval);
-	interval = setInterval(banAni, 2000);
+	interval = setInterval(banAni, timer);
 	if(now == ed) now = 0;
 	else now++;
 	banFade();
 });
-
+$(".pagers > i").click(function(){
+	clearInterval(interval);
+	interval = setInterval(banAni, timer);
+	now = $(this).index();
+	banFade();
+});
 function banFade() {
 	$(".ban_li").eq(now).css({"opacity": 0, "z-index": depth++});
 	$(".ban_li").eq(now).stop().animate({"opacity": 1}, 500);
+	$(".pagers > i").css("color", "#fff");
+	$(".pagers > i").eq(now).css("color", "#f00");
 }
 
 
