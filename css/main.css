@@ -11,7 +11,18 @@ html, body {font-size: 14px;}
 */
 .tops {display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 30px;}
 .navis {display: flex;}
-.navis > li {margin: 0 12px;}
+.navis > li {margin: 0 12px; position: relative;}
+.navi_sub {position: absolute; z-index: 9999; font-size: 0.875rem; display: none; left: -15px; top: 30px;}
+.navi_sub > div:first-child {padding-left: 30px;}
+.navi_sub > div:first-child > img {transform: translateY(1px);}
+.navi_sub > div:last-child {border: 1px solid #ccc; padding: 1rem; background-color: #fff; display: flex; width: 100%;}
+.navi_sub_ul {min-width: 130px; border-top: 2px solid #666; padding-top: 0.5rem; flex: 1 0; margin: 0.5rem;}
+.navi_sub_tit {padding-bottom: 3rem;}
+.navi_sub_cont {padding-bottom: 0.5rem;}
+.navi_sub_cont > div {margin: 0.5rem 0;}
+.navi_sub_cont > div:hover {background-color: pink; color: red; font-weight: bold; cursor: pointer;}
+.navi_udot {border-bottom: 1px dotted #666;}
+
 
 .bans {position: relative;}
 .ban > li {width: 100%; overflow-x: hidden;}
