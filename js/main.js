@@ -67,6 +67,30 @@ $.ajax({
 	}
 });
 
+var interval = setInterval(fn, 3000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 res.navs[0].datas[0].mtit.title
 res.navs[0].datas[0].stit[2].title

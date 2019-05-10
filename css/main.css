@@ -27,6 +27,10 @@ html, body {font-size: 14px;}
 .bans {position: relative;}
 .ban > li {width: 100%; overflow-x: hidden;}
 .ban > li:not(:first-child) {position: absolute; top: 0;}
-.ban_btn {position: absolute; left: 50%; top: 60%; transform: translateX(-50%);}
-
+.bt_ban {position: absolute; transform: translateX(-50%);}
+.ban > li:nth-child(1) > .bt_ban {left: 50%; top: 45%;}
+.ban > li:nth-child(2) > .bt_ban {left: 77%; top: 52%;}
+.ban > li:nth-child(3) > .bt_ban {left: 50%; top: 58%;}
+.ban > li:nth-child(4) > .bt_ban {left: 70%; top: 40%;}
+.ban > li:nth-child(5) > .bt_ban {left: 50%; top: 60%;}
 .quicks {position: fixed; right: 0; top: 50%;}
