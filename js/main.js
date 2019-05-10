@@ -67,7 +67,48 @@ $.ajax({
 	}
 });
 
-var interval = setInterval(fn, 3000);
+/*
+//웹디자인 기능사
+var now = 0;
+var ed = 4;
+var depth = 10;
+var interval = setInterval(banAni, 2000);
+function banAni() {
+	if(now == ed) now = 0;
+	else now++;
+	$(".ban_li").eq(now).css({"opacity": 0, "z-index": depth++});
+	$(".ban_li").eq(now).stop().animate({"opacity": 1}, 500);
+}
+*/
+
+var now = 0;
+var ed = 4;
+var depth = 10;
+var interval = setInterval(banAni, 2000);
+function banAni() {
+	if(now == ed) now = 0;
+	else now++;
+	banFade();
+}
+$("#bt_lt").click(function(){
+	clearInterval(interval);
+	interval = setInterval(banAni, 2000);
+	if(now == 0) now = ed;
+	else now--;
+	banFade();
+});
+$("#bt_rt").click(function(){
+	clearInterval(interval);
+	interval = setInterval(banAni, 2000);
+	if(now == ed) now = 0;
+	else now++;
+	banFade();
+});
+
+function banFade() {
+	$(".ban_li").eq(now).css({"opacity": 0, "z-index": depth++});
+	$(".ban_li").eq(now).stop().animate({"opacity": 1}, 500);
+}
 
 
 
