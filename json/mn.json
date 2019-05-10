@@ -1,123 +1,296 @@
 {
-	"navs": [
-		{
-			"datas": [
-				{
-					"mtit": {"title": "오피스", "link": "#", "target": ""},
-					"stit": [
-						{"title": "데스크 & 패널", "link": "#", "target": ""},
-						{"title": "프리미어클래스", "link": "#", "target": ""},
-						{"title": "중역용의자", "link": "#", "target": ""},
-						{"title": "사무용의자", "link": "#", "target": "_blank"},
-						{"title": "회의용의자", "link": "#", "target": ""},
-						{"title": "로비의자", "link": "#", "target": ""},
-						{"title": "소파", "link": "#", "target": ""},
-						{"title": "소파 테이블", "link": "#", "target": ""},
-						{"title": "도서관 & 기숙사", "link": "#", "target": ""},
-						{"title": "액세서리", "link": "#", "target": ""},
-					] 
+	"navs": [{
+			"datas": [{
+					"mtit": {
+						"title": "오피스",
+						"link": "#",
+						"target": ""
+					},
+					"stit": [{
+							"title": "데스크 & 패널",
+							"link": "#",
+							"target": ""
+						},
+						{
+							"title": "프리미어클래스",
+							"link": "#",
+							"target": ""
+						},
+						{
+							"title": "중역용의자",
+							"link": "#",
+							"target": ""
+						},
+						{
+							"title": "사무용의자",
+							"link": "#",
+							"target": "_blank"
+						},
+						{
+							"title": "회의용의자",
+							"link": "#",
+							"target": ""
+						},
+						{
+							"title": "로비의자",
+							"link": "#",
+							"target": ""
+						},
+						{
+							"title": "소파",
+							"link": "#",
+							"target": ""
+						},
+						{
+							"title": "소파 테이블",
+							"link": "#",
+							"target": ""
+						},
+						{
+							"title": "도서관 & 기숙사",
+							"link": "#",
+							"target": ""
+						},
+						{
+							"title": "액세서리",
+							"link": "#",
+							"target": ""
+						}
+					]
 				},
 				{
-					"mtit": {"title": "헬스케어", "link": "#", "target": ""},
-					"stit": [
-						{"title": "의료장비", "link": "#", "target": ""},
-						{"title": "병실", "link": "#", "target": ""},
-						{"title": "진료실", "link": "#", "target": ""},
-						{"title": "간호스테이션", "link": "#", "target": "_blank"},
-						{"title": "업무공간", "link": "#", "target": ""},
-						{"title": "휴게대기", "link": "#", "target": ""}
-					] 
+					"mtit": {
+						"title": "헬스케어",
+						"link": "#",
+						"target": ""
+					},
+					"stit": [{
+							"title": "의료장비",
+							"link": "#",
+							"target": ""
+						},
+						{
+							"title": "병실",
+							"link": "#",
+							"target": ""
+						},
+						{
+							"title": "진료실",
+							"link": "#",
+							"target": ""
+						},
+						{
+							"title": "간호스테이션",
+							"link": "#",
+							"target": "_blank"
+						},
+						{
+							"title": "업무공간",
+							"link": "#",
+							"target": ""
+						},
+						{
+							"title": "휴게대기",
+							"link": "#",
+							"target": ""
+						}
+					]
 				},
 				{
-					"mtit": {"title": "랩", "link": "#", "target": ""},
-					"stit": [
-						{"title": "실험대", "link": "#", "target": ""},
-						{"title": "기초장비", "link": "#", "target": ""},
-						{"title": "초중고 과학실", "link": "#", "target": ""},
-						{"title": "의자", "link": "#", "target": "_blank"}
-					] 
+					"mtit": {
+						"title": "랩",
+						"link": "#",
+						"target": ""
+					},
+					"stit": [{
+							"title": "실험대",
+							"link": "#",
+							"target": ""
+						},
+						{
+							"title": "기초장비",
+							"link": "#",
+							"target": ""
+						},
+						{
+							"title": "초중고 과학실",
+							"link": "#",
+							"target": ""
+						},
+						{
+							"title": "의자",
+							"link": "#",
+							"target": "_blank"
+						}
+					]
 				}
 			]
 		},
 		{
-			"datas": [
-				{
-					"mtit": "",
-					"stit": [
-						{"title": "사무환경컨설팅 소개", "link": "#", "target": ""},
-						{"title": "분석방법", "link": "#", "target": ""},
-						{"title": "실적/사례", "link": "#", "target": ""},
-						{"title": "퍼시스 사무환경지수", "link": "#", "target": "_blank"},
-						{"title": "컨설팅 문의", "link": "#", "target": ""}
-					] 
-				}
-			]
+			"datas": [{
+				"mtit": "",
+				"stit": [{
+						"title": "사무환경컨설팅 소개",
+						"link": "#",
+						"target": ""
+					},
+					{
+						"title": "분석방법",
+						"link": "#",
+						"target": ""
+					},
+					{
+						"title": "실적/사례",
+						"link": "#",
+						"target": ""
+					},
+					{
+						"title": "퍼시스 사무환경지수",
+						"link": "#",
+						"target": "_blank"
+					},
+					{
+						"title": "컨설팅 문의",
+						"link": "#",
+						"target": ""
+					}
+				]
+			}]
 		},
 		{
-			"datas": [
-				{
-					"mtit": "",
-					"stit": [
-						{"title": "오피스 컨설턴트 소개", "link": "#", "target": ""},
-						{"title": "혜택 및 교육과정", "link": "#", "target": ""},
-						{"title": "OC 활동", "link": "#", "target": ""},
-						{"title": "모집공고 및 Q&amp;A", "link": "#", "target": "_blank"}
-					] 
-				}
-			]
+			"datas": [{
+				"mtit": "",
+				"stit": [{
+						"title": "오피스 컨설턴트 소개",
+						"link": "#",
+						"target": ""
+					},
+					{
+						"title": "혜택 및 교육과정",
+						"link": "#",
+						"target": ""
+					},
+					{
+						"title": "OC 활동",
+						"link": "#",
+						"target": ""
+					},
+					{
+						"title": "모집공고 및 Q&amp;A",
+						"link": "#",
+						"target": "_blank"
+					}
+				]
+			}]
 		},
 		{
-			"datas": [
-				{
-					"mtit": "",
-					"stit": [
-						{"title": "주요 납품사례", "link": "#", "target": ""},
-						{"title": "클라이언트 목록", "link": "#", "target": ""}
-					] 
-				}
-			]
+			"datas": [{
+				"mtit": "",
+				"stit": [{
+						"title": "주요 납품사례",
+						"link": "#",
+						"target": ""
+					},
+					{
+						"title": "클라이언트 목록",
+						"link": "#",
+						"target": ""
+					}
+				]
+			}]
 		},
 		{
-			"datas": [
-				{
-					"mtit": "",
-					"stit": [
-						{"title": "R & D 센터", "link": "#", "target": ""},
-						{"title": "공간이야기", "link": "#", "target": ""},
-						{"title": "퍼시스 북스", "link": "#", "target": ""}
-					] 
-				}
-			]
+			"datas": [{
+				"mtit": "",
+				"stit": [{
+						"title": "R & D 센터",
+						"link": "#",
+						"target": ""
+					},
+					{
+						"title": "공간이야기",
+						"link": "#",
+						"target": ""
+					},
+					{
+						"title": "퍼시스 북스",
+						"link": "#",
+						"target": ""
+					}
+				]
+			}]
 		},
 		{
-			"datas": [
-				{
-					"mtit": "",
-					"stit": [
-						{"title": "퍼시스그룹", "link": "#", "target": ""},
-						{"title": "퍼시스", "link": "#", "target": ""},
-						{"title": "퍼시스 네트워크", "link": "#", "target": ""},
-						{"title": "미디어센터", "link": "#", "target": ""},
-						{"title": "IR", "link": "#", "target": ""}
-					] 
-				}
-			]
+			"datas": [{
+				"mtit": "",
+				"stit": [{
+						"title": "퍼시스그룹",
+						"link": "#",
+						"target": ""
+					},
+					{
+						"title": "퍼시스",
+						"link": "#",
+						"target": ""
+					},
+					{
+						"title": "퍼시스 네트워크",
+						"link": "#",
+						"target": ""
+					},
+					{
+						"title": "미디어센터",
+						"link": "#",
+						"target": ""
+					},
+					{
+						"title": "IR",
+						"link": "#",
+						"target": ""
+					}
+				]
+			}]
 		},
 		{
-			"datas": [
-				{
-					"mtit": "",
-					"stit": [
-						{"title": "상담 신청", "link": "#", "target": ""},
-						{"title": "카탈로그 신청", "link": "#", "target": ""},
-						{"title": "A/S 신청", "link": "#", "target": ""},
-						{"title": "쇼룸안내", "link": "#", "target": ""},
-						{"title": "대리점 안내", "link": "#", "target": ""},
-						{"title": "해외수출 프로그램 안내", "link": "#", "target": ""},
-						{"title": "협력업체등록안내", "link": "#", "target": ""}
-					] 
-				}
-			]
+			"datas": [{
+				"mtit": "",
+				"stit": [{
+						"title": "상담 신청",
+						"link": "#",
+						"target": ""
+					},
+					{
+						"title": "카탈로그 신청",
+						"link": "#",
+						"target": ""
+					},
+					{
+						"title": "A/S 신청",
+						"link": "#",
+						"target": ""
+					},
+					{
+						"title": "쇼룸안내",
+						"link": "#",
+						"target": ""
+					},
+					{
+						"title": "대리점 안내",
+						"link": "#",
+						"target": ""
+					},
+					{
+						"title": "해외수출 프로그램 안내",
+						"link": "#",
+						"target": ""
+					},
+					{
+						"title": "협력업체등록안내",
+						"link": "#",
+						"target": ""
+					}
+				]
+			}]
 		}
 	]
 }

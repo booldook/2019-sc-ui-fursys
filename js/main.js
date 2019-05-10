@@ -12,3 +12,63 @@ function mnLeave() {
 	$(this).find(".navi_sub").stop().slideUp(200);
 }
 
+$.ajax({
+	type: "get",
+	url: "../json/mn.json",
+	dataType: "json",
+	success: function (res) {
+		console.log(res);
+		var html = '';
+		for(var i in res.navs) {
+			html  = '<div class="navi_sub">';
+			html += '<div class="clear">';
+			html += '<img src="../img/bl_top.png" class="fl">';
+			html += '</div>';
+			html += '<div>';
+
+			html += '</div>';
+			$(".navis > li").eq(i).append(html);
+		}
+	},
+	error: function(xhr){
+		console.log(xhr);
+	}
+});
+
+/*
+<div class="navi_sub">
+	<div class="clear">
+		<img src="../img/bl_top.png" class="fl">
+	</div>
+	<div>
+		<ul class="navi_sub_ul">
+			<li class="navi_sub_tit navi_udot">오피스</li>
+			<li class="navi_sub_cont">
+				<div>- 데스크 & 패널</div>
+				<div>- 프리미어 클래스</div>
+				<div>- 중역용 의자</div>
+			</li>
+		</ul>
+	</div>
+</div>
+*/
+
+
+/*
+{
+	"navs": [
+		{
+			"datas": [
+				{
+					"mtit": {"title":"", "link": "", "target": ""},
+					"stit": [
+						{"title":"", "link": "", "target": ""}
+					]
+				}
+			]
+		}
+	]
+}
+res.navs[0].datas[0].mtit.title
+res.navs[0].datas[0].stit[2].title
+*/
