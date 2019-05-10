@@ -69,7 +69,7 @@ $.ajax({
 
 /*
 //웹디자인 기능사
-var now = 0;
+var now = -1;
 var ed = 4;
 var depth = 10;
 var interval = setInterval(banAni, 2000);
@@ -80,6 +80,7 @@ function banAni() {
 	$(".ban_li").eq(now).stop().animate({"opacity": 1}, 500);
 }
 */
+
 
 var now = -1;
 var ed = 4;

@@ -32,7 +32,7 @@ html, body {font-size: 14px;}
 .pagers > i {margin: 0 0.5rem;}
 
 .ban > li {width: 100%; overflow-x: hidden;}
-.ban > .ban_li {position: absolute; top: 0; z-index: 9;}
+.ban > .ban_li {position: absolute; top: 0; z-index: 1;}
 .bt_ban {position: absolute; transform: translateX(-50%);}
 .ban > li:nth-child(2) > .bt_ban {left: 50%; top: 45%;}
 .ban > li:nth-child(3) > .bt_ban {left: 77%; top: 52%;}
